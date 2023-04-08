@@ -1,0 +1,16 @@
+package AmazonTest;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AmazonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com");
+
+		
+	}
+
+}

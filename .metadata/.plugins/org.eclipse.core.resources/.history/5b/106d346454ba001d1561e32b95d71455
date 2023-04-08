@@ -1,0 +1,11 @@
+package oops;
+
+public class Insurance extends Citizen{
+	
+	public int InsuranceId;
+	public void Print(){
+	
+	System.out.println("Insurance Id is " + InsuranceId);
+
+}
+}
